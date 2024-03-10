@@ -1,0 +1,74 @@
+{
+	"fi8yjvnoo4ymtmlh": {
+		"definition": "sword_student",
+		"x": 0,
+		"y": -73.9008344562721,
+		"root": true
+	},
+	"59zrno0y0sjc8bg6": {
+		"definition": "tachi_student",
+		"x": -64,
+		"y": -110.85125168440814,
+		"root": true
+	},
+	"5ovhodlp0j5gbh29": {
+		"definition": "longsword_student",
+		"x": 64,
+		"y": -110.85125168440814,
+		"root": true
+	},
+	"z5azblhi82pk1r00": {
+		"definition": "dagger_student",
+		"x": -128,
+		"y": 0,
+		"root": true
+	},
+	"7d0yh3of9z7dxz2v": {
+		"definition": "greatsword_student",
+		"x": 64,
+		"y": -36.95041722813605,
+		"root": true
+	},
+	"fxbkyqbrzv5hdak7": {
+		"definition": "axe_student",
+		"x": -64,
+		"y": 36.95041722813605,
+		"root": true
+	},
+	"twvr5zfv68in1g1h": {
+		"definition": "bow_student",
+		"x": 64,
+		"y": 110.85125168440814,
+		"root": true
+	},
+	"8zsxoyjej4qe9k4t": {
+		"definition": "unarmed_student",
+		"x": 0,
+		"y": 73.9008344562721,
+		"root": true
+	},
+	"6qem2iwm97w2wh40": {
+		"definition": "spear_student",
+		"x": 128,
+		"y": 0,
+		"root": true
+	},
+	"6n7khboraoxfktdu": {
+		"definition": "trident_student",
+		"x": 64,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"vf0ov6o07kwr5s1u": {
+		"definition": "crossbow_student",
+		"x": -64,
+		"y": 110.85125168440814,
+		"root": true
+	},
+	"tdrqhxtmrxi5aowa": {
+		"definition": "katana_student",
+		"x": -64,
+		"y": -36.95041722813605,
+		"root": false
+	}
+}

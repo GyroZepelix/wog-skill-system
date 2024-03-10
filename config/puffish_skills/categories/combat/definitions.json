@@ -1,0 +1,278 @@
+{
+    "sword_student": {
+        "title": "Sword Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_sword"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-sword_student"
+				}
+			}
+		]
+    },
+    "tachi_student": {
+        "title": "Tachi Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "epicfight:diamond_tachi"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-tachi_student"
+				}
+			}
+		]
+    },
+    "greatsword_student": {
+        "title": "Greatsword Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "epicfight:diamond_greatsword"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-greatsword_student"
+				}
+			}
+		]
+    },
+    "longsword_student": {
+        "title": "Longsword Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "epicfight:diamond_longsword"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-longsword_student"
+				}
+			}
+		]
+    },
+    "dagger_student": {
+        "title": "Dagger Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "epicfight:diamond_dagger"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-dagger_student"
+				}
+			}
+		]
+    },
+    "spear_student": {
+        "title": "Spear Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "epicfight:diamond_spear"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-spear_student"
+				}
+			}
+		]
+    },
+    "unarmed_student": {
+        "title": "Glove Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "epicfight:glove"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-unarmed_student"
+				}
+			}
+		]
+    },
+    "katana_student": {
+        "title": "Katana Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "epicfight:uchigatana"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-katana_student"
+				}
+			}
+		]
+    },
+    "axe_student": {
+        "title": "Axe Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_axe"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-axe_student"
+				}
+			}
+		]
+    },
+    "bow_student": {
+        "title": "Bow Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-bow_student"
+				}
+			}
+		]
+    },
+    "crossbow_student": {
+        "title": "Crossbow Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "crossbow"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-crossbow_student"
+				}
+			}
+		]
+    },
+    "trident_student": {
+        "title": "Trident Mastery",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "trident"
+			}
+		},
+        "rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s weapons/w-trident_student"
+				}
+			}
+		]
+    }
+}

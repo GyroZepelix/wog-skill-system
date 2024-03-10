@@ -1,0 +1,663 @@
+{
+    "light-armor-training": {
+		"title": "Light Armor Training",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "leather_helmet"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s w-light_armor_feat"
+				}
+			},
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Light Armor Training\",\"color\":\"dark_green\"}"
+                }
+            }
+		]
+	},
+    "medium-armor-training": {
+        "title": "Medium Armor Training",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "chainmail_helmet"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "gamestage add @s w-medium_armor_feat"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Medium Armor Training\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "heavy-armor-training": {
+        "title": "Heavy Armor Training",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_helmet"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "gamestage add @s w-heavy_armor_feat"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Heavy Armor Training\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "shield-training": {
+        "title": "Shield Training",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "shield"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "gamestage add @s w-shields_feat"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Shield Training\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "stamina-pillager": {
+        "title": "Stamina Pillager",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_axe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "epicfight skill add @s passive1 epicfight:stamina_pillager"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "say You are now a Stamina Pillager!"
+                }
+            }
+        ]
+    },
+    "step": {
+        "title": "Step",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "rabbit_foot"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "epicfight skill add @s dodge epicfight:step"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Step\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "berserker": {
+        "title": "Berserker",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "effect",
+            "data": {
+                "effect": "strength"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "epicfight skill add @s passive1 epicfight:berserker"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You are now a Berserker\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "endurance": {
+        "title": "Endurance",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "effect",
+            "data": {
+                "effect": "resistance"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "epicfight skill add @s passive1 epicfight:endurance"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Endurance\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "revelation": {
+        "title": "Revelation",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "effect",
+            "data": {
+                "effect": "night_vision"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "epicfight skill add @s identity epicfight:revelation"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Revelation\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "meteor_slam": {
+        "title": "Meteor Slam",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "fire_charge"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "epicfight skill add @s identity epicfight:meteor_slam"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Meteor Slam\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "death_harvest": {
+        "title": "Death Harvest",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "netherite_hoe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "epicfight skill add @s passive1 epicfight:death_harvest"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Death Harvest\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "impact_guard": {
+        "title": "Impact Guard",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "epicfight:golden_greatsword"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "epicfight skill add @s guard epicfight:impact_guard"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Impact Guard\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "guard": {
+        "title": "Guard",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "shield"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "epicfight skill add @s guard epicfight:guard"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Guard\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "demolition_leap": {
+        "title": "Demolition Leap",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "effect",
+            "data": {
+                "effect": "jump_boost"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "epicfight skill add @s mover epicfight:demolition_leap"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You have learned Demolition Leap\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "forbidden_strenght": {
+        "title": "Forbidden Strenght",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon":{
+            "type": "effect",
+            "data": {
+                "effect": "wither"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"epicfight skill add @s passive1 epicfight:forbidden_strength"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"title @a actionbar {\"text\":\"You have learned Forbidden Strength\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "parrying": {
+        "title": "Parrying",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon":{
+            "type": "item",
+            "data": {
+                "item": "epicfight:golden_tachi"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"epicfight skill add @s guard epicfight:parrying"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"title @a actionbar {\"text\":\"You have learned Parrying\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "swordmaster": {
+        "title": "Swordmaster",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon":{
+            "type": "item",
+            "data": {
+                "item": "epicfight:uchigatana"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"epicfight skill add @s passive1 epicfight:swordmaster"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"title @a actionbar {\"text\":\"You have learned Swordmaster\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "roll": {
+        "title": "Roll",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon":{
+            "type": "item",
+            "data": {
+                "item": "nautilus_shell"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"epicfight skill add @s dodge epicfight:roll"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"title @a actionbar {\"text\":\"You have learned Roll\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "phantom_ascent": {
+        "title": "Phantom Ascent",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon":{
+            "type": "item",
+            "data": {
+                "item": "phantom_membrane"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"epicfight skill add @s mover epicfight:phantom_ascent"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"title @a actionbar {\"text\":\"You have learned Phantom Ascent\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "technician": {
+        "title": "Technician",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon":{
+            "type": "effect",
+            "data": {
+                "effect": "invisibility"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"epicfight skill add @s passive1 epicfight:technician"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"title @a actionbar {\"text\":\"You have learned Technician\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "emergency_escape": {
+        "title": "Emergency Escape",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon":{
+            "type": "item",
+            "data": {
+                "item": "ender_pearl"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"epicfight skill add @s passive1 epicfight:emergency_escape"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"title @a actionbar {\"text\":\"You have learned Emergency Escape\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "hyper_vitality": {
+        "title": "Hyper Vitality",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon":{
+            "type": "item",
+            "data": {
+                "item": "golden_apple"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"epicfight skill add @s passive1 epicfight:hypervitality"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command":"title @a actionbar {\"text\":\"You have learned Hyper Vitality\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    },
+    "training_towards": {
+        "title": "Training Towards",
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "dirt_path"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "title @a actionbar {\"text\":\"You are training towards a new skill...\",\"color\":\"dark_green\"}"
+                }
+            }
+        ]
+    }
+}

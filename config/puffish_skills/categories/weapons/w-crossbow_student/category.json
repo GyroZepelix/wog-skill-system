@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": false,
+    "exclusive_root": false,
+	"title": "Crossbow Mastery",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "crossbow"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/nether.png"
+}

@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": false,
+    "exclusive_root": false,
+	"title": "Katana Mastery",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "epicfight:uchigatana"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/nether.png"
+}

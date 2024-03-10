@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": false,
+    "exclusive_root": false,
+	"title": "Bow Mastery",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "bow"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/nether.png"
+}

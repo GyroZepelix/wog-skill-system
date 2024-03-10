@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": false,
+    "exclusive_root": false,
+	"title": "Dagger Mastery",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "epicfight:diamond_dagger"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/nether.png"
+}

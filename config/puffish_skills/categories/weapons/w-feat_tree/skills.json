@@ -1,0 +1,230 @@
+{
+	"98d5wegybdhn55i1": {
+		"definition": "light-armor-training",
+		"x": -96,
+		"y": -55.42562584220407,
+		"root": true
+	},
+	"0j1dlfhk0c7t47ey": {
+		"definition": "heavy-armor-training",
+		"x": 96,
+		"y": -55.42562584220407,
+		"root": false
+	},
+	"donbhvgh5aokss48": {
+		"definition": "shield-training",
+		"x": 0,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"ii1mk17pewa6i97h": {
+		"definition": "medium-armor-training",
+		"x": 0,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"41pssf3bqji9a1eo": {
+		"definition": "training_towards",
+		"x": -128,
+		"y": 73.9008344562721,
+		"root": true
+	},
+	"0bx06no1uita5bdy": {
+		"definition": "training_towards",
+		"x": 128,
+		"y": 73.9008344562721,
+		"root": true
+	},
+	"c55l0mg9l2v08orp": {
+		"definition": "step",
+		"x": -64,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"o5ckdzjpy7s9cdat": {
+		"definition": "roll",
+		"x": 64,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"xl4oecd7wpflf59g": {
+		"definition": "stamina-pillager",
+		"x": 64,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"e0g0nawltvy0d310": {
+		"definition": "berserker",
+		"x": -32,
+		"y": -18.475208614068023,
+		"root": false
+	},
+	"2quak6gbpz75xb4x": {
+		"definition": "endurance",
+		"x": 32,
+		"y": -18.475208614068023,
+		"root": false
+	},
+	"cw194ncxh78co4sr": {
+		"definition": "revelation",
+		"x": 256,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"bfs5bmc1jo1zvmkh": {
+		"definition": "meteor_slam",
+		"x": -160,
+		"y": -92.37604307034012,
+		"root": false
+	},
+	"o5f68904e9fqg15m": {
+		"definition": "death_harvest",
+		"x": 0,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"yey1mrby98ccu7r1": {
+		"definition": "training_towards",
+		"x": 0,
+		"y": 332.55375505322445,
+		"root": true
+	},
+	"ekoqqj1tklmqvj47": {
+		"definition": "guard",
+		"x": 0,
+		"y": 258.6529205969523,
+		"root": false
+	},
+	"5zsyffp1ksj3rjh6": {
+		"definition": "impact_guard",
+		"x": -192,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"xqm1k4cbk3g1w5jp": {
+		"definition": "parrying",
+		"x": 192,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"f9skkk5lpk9eik17": {
+		"definition": "training_towards",
+		"x": -96,
+		"y": 166.27687752661222,
+		"root": false
+	},
+	"m6hgj5v936723zht": {
+		"definition": "training_towards",
+		"x": 96,
+		"y": 166.27687752661222,
+		"root": false
+	},
+	"zqvcakupwtfydph1": {
+		"definition": "technician",
+		"x": 0,
+		"y": 184.75208614068023,
+		"root": false
+	},
+	"4s5nakpkygzd015r": {
+		"definition": "training_towards",
+		"x": 0,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"dgg93llsttbitif9": {
+		"definition": "phantom_ascent",
+		"x": 0,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"v1c6q2avn3sym581": {
+		"definition": "hyper_vitality",
+		"x": -64,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"hmg5kmneiu7volcr": {
+		"definition": "swordmaster",
+		"x": 64,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"bvwymo81ak3w0bhw": {
+		"definition": "training_towards",
+		"x": -64,
+		"y": -184.75208614068023,
+		"root": true
+	},
+	"8dgnmdbfi0jr5dtw": {
+		"definition": "training_towards",
+		"x": 0,
+		"y": -332.55375505322445,
+		"root": false
+	},
+	"xmj9x65cs6fsef2n": {
+		"definition": "emergency_escape",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"46ehrbybl9dryuwl": {
+		"definition": "training_towards",
+		"x": 192,
+		"y": 0,
+		"root": true
+	},
+	"iiph2anbzw3xy8rb": {
+		"definition": "training_towards",
+		"x": -192,
+		"y": 0,
+		"root": true
+	},
+	"rbud9qrd7j80mcgd": {
+		"definition": "training_towards",
+		"x": -256,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"4kizgfk2k0wt2bow": {
+		"definition": "demolition_leap",
+		"x": -256,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"tm87xzm06c3ynulq": {
+		"definition": "training_towards",
+		"x": -288,
+		"y": 18.47520861406801,
+		"root": false
+	},
+	"ze5zz7iatn0gbzqd": {
+		"definition": "forbidden_strenght",
+		"x": 160,
+		"y": -92.37604307034012,
+		"root": false
+	},
+	"oz28tivkkrl1w3z6": {
+		"definition": "training_towards",
+		"x": 256,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"az535akedj92lmt2": {
+		"definition": "training_towards",
+		"x": 288,
+		"y": 18.475208614068038,
+		"root": false
+	},
+	"erha9pzgrn6x6hcb": {
+		"definition": "training_towards",
+		"x": -160,
+		"y": 240.17771198288432,
+		"root": false
+	},
+	"p3gpqte3w5drcm58": {
+		"definition": "training_towards",
+		"x": 160,
+		"y": 240.17771198288432,
+		"root": false
+	}
+}

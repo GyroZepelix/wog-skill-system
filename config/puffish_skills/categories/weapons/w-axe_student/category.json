@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": false,
+    "exclusive_root": false,
+	"title": "Axe Mastery",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "diamond_axe"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/nether.png"
+}

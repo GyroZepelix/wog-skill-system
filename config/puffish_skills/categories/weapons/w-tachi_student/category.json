@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": false,
+    "exclusive_root": false,
+	"title": "Tachi Mastery",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "epicfight:diamond_tachi"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/nether.png"
+}

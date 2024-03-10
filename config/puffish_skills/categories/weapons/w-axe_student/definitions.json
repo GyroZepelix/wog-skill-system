@@ -1,0 +1,179 @@
+{
+	"basic_weapon_mastery": {
+		"title": "Student of the Axe",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s w-axe_student"
+				}
+			}
+		]
+	},
+    "expert_weapon_mastery": {
+		"title": "Axe Expert",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say You are now advanced user!"
+				}
+			}
+		]
+	},
+    "master_weapon_mastery": {
+		"title": "Axe Master",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say You are now master user!"
+				}
+			}
+		]
+	},
+    "feat": {
+		"title": "Feat",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "totem_of_undying"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say You get a feat!"
+				}
+			}
+		]
+	},
+    "weapon_damage_increase": {
+        "title": "Minor axe damage increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say damage increase!"
+				}
+			}
+		]
+    },
+    "weapon_speed_increase": {
+        "title": "Minor axe speed increase",
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say speed increase!"
+				}
+			}
+		]
+    },
+    "weapon_knockback_increase": {
+        "title": "Minor axe knockback increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say knockback increase!"
+				}
+			}
+		]
+    },
+    "minor_defence_increase": {
+        "title": "Minor axe defensive increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say resistance increase!"
+				}
+			}
+		]
+    },
+    "minor_walk_speed_increase": {
+        "title": "Minor axe mobility increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say speed increase!"
+				}
+			}
+		]
+    }
+}

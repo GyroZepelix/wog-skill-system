@@ -1,0 +1,179 @@
+{
+	"basic_weapon_mastery": {
+		"title": "Student of the Sword",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say You are now a student of war!"
+				}
+			}
+		]
+	},
+    "expert_weapon_mastery": {
+		"title": "Sword's Disciple",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say You are now advanced user!"
+				}
+			}
+		]
+	},
+    "master_weapon_mastery": {
+		"title": "Master of the Blade",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say You are now master user!"
+				}
+			}
+		]
+	},
+    "feat": {
+		"title": "Feat",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "totem_of_undying"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say You get a feat!"
+				}
+			}
+		]
+	},
+    "weapon_damage_increase": {
+        "title": "Minor sword damage increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say damage increase!"
+				}
+			}
+		]
+    },
+    "weapon_speed_increase": {
+        "title": "Minor sword speed increase",
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say speed increase!"
+				}
+			}
+		]
+    },
+    "weapon_knockback_increase": {
+        "title": "Minor sword knockback increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say knockback increase!"
+				}
+			}
+		]
+    },
+    "minor_defence_increase": {
+        "title": "Minor sword defensive increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say resistance increase!"
+				}
+			}
+		]
+    },
+    "minor_walk_speed_increase": {
+        "title": "Minor sword mobility increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say speed increase!"
+				}
+			}
+		]
+    }
+}

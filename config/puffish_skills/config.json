@@ -1,0 +1,22 @@
+{
+	"version": 1,
+
+	"show_warnings": true,
+
+	"categories": [
+        "combat",
+        "weapons/w-tachi_student",
+        "weapons/w-sword_student",
+        "weapons/w-longsword_student",
+        "weapons/w-axe_student",
+        "weapons/w-greatsword_student",
+        "weapons/w-katana_student",
+        "weapons/w-dagger_student",
+        "weapons/w-spear_student",
+        "weapons/w-trident_student",
+        "weapons/w-unarmed_student",
+        "weapons/w-bow_student",
+        "weapons/w-crossbow_student",
+        "weapons/w-feat_tree"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Combat",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "skeleton_skull"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/nether.png"
+}

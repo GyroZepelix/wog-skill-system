@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": false,
+    "exclusive_root": false,
+	"title": "Feat Tree",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "totem_of_undying"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}

@@ -1,0 +1,188 @@
+{
+	"sufl34ysm3krgrqt": {
+		"definition": "expert_weapon_mastery",
+		"x": 0,
+		"y": 1.1368683772161603e-13,
+		"root": false
+	},
+	"6qpxbig6rigc6w5f": {
+		"definition": "basic_weapon_mastery",
+		"x": -96,
+		"y": 461.88021535170054,
+		"root": true
+	},
+	"tzswr290xxe27lxh": {
+		"definition": "basic_weapon_mastery",
+		"x": 96,
+		"y": 461.88021535170054,
+		"root": true
+	},
+	"v818elimwmm7nftn": {
+		"definition": "weapon_damage_increase",
+		"x": -96,
+		"y": 387.97938089542845,
+		"root": false
+	},
+	"jpeb88vvg5khddjp": {
+		"definition": "weapon_damage_increase",
+		"x": -64,
+		"y": 332.55375505322434,
+		"root": false
+	},
+	"4ssf5ni9p38s8ldc": {
+		"definition": "weapon_speed_increase",
+		"x": 96,
+		"y": 387.97938089542845,
+		"root": false
+	},
+	"4k9jjozuaktx450q": {
+		"definition": "weapon_speed_increase",
+		"x": 64,
+		"y": 332.55375505322434,
+		"root": false
+	},
+	"4auoizmx8yfzymjw": {
+		"definition": "weapon_speed_increase",
+		"x": -96,
+		"y": 240.17771198288432,
+		"root": false
+	},
+	"s9f49skpsivegqsr": {
+		"definition": "weapon_damage_increase",
+		"x": 96,
+		"y": 55.425625842204084,
+		"root": false
+	},
+	"ru27owp0vwlfpqic": {
+		"definition": "weapon_damage_increase",
+		"x": 96,
+		"y": 240.17771198288432,
+		"root": false
+	},
+	"t6weg7c7ycbbq6tb": {
+		"definition": "weapon_knockback_increase",
+		"x": -64,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"48zrgmz3ee56qosa": {
+		"definition": "weapon_speed_increase",
+		"x": -128,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"e0z357yrlcyu970p": {
+		"definition": "weapon_knockback_increase",
+		"x": 64,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"4ehw1ksrhttsz18p": {
+		"definition": "weapon_damage_increase",
+		"x": 128,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"t3q5alv7v1l8e8we": {
+		"definition": "weapon_speed_increase",
+		"x": -96,
+		"y": 55.425625842204084,
+		"root": false
+	},
+	"h0fc7w2rfu2khs0d": {
+		"definition": "feat",
+		"x": 0,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"rpvjmne47n7o8zj4": {
+		"definition": "feat",
+		"x": 0,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"dsygzt7c1mdm0a5t": {
+		"definition": "weapon_damage_increase",
+		"x": -64,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"g2jc3fpa043ho3um": {
+		"definition": "weapon_damage_increase",
+		"x": -96,
+		"y": -92.37604307034012,
+		"root": false
+	},
+	"v7cg2kfoke6lcnu8": {
+		"definition": "weapon_damage_increase",
+		"x": -64,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"sgcu72iocz91e79u": {
+		"definition": "weapon_speed_increase",
+		"x": 64,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"m05fw42gmtr40gs0": {
+		"definition": "weapon_speed_increase",
+		"x": 64,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"nxpczrpxkuc4nxcu": {
+		"definition": "weapon_speed_increase",
+		"x": 96,
+		"y": -92.37604307034012,
+		"root": false
+	},
+	"7c9kyaeul1wvthk6": {
+		"definition": "weapon_knockback_increase",
+		"x": 0,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"62o6q85ur1a5dkku": {
+		"definition": "master_weapon_mastery",
+		"x": 0,
+		"y": -480.35542396576864,
+		"root": false
+	},
+	"8ga4osf4yyx5uo7q": {
+		"definition": "minor_walk_speed_increase",
+		"x": -32,
+		"y": -387.9793808954285,
+		"root": false
+	},
+	"4sgvdgth6kbovxku": {
+		"definition": "minor_walk_speed_increase",
+		"x": -96,
+		"y": -240.17771198288432,
+		"root": false
+	},
+	"qikl1e2sp7qb43bi": {
+		"definition": "minor_defence_increase",
+		"x": 96,
+		"y": -240.17771198288432,
+		"root": false
+	},
+	"gcntx12esui0wbmm": {
+		"definition": "minor_walk_speed_increase",
+		"x": -32,
+		"y": -314.0785464391564,
+		"root": false
+	},
+	"y3wy3qyfc849rd9r": {
+		"definition": "minor_defence_increase",
+		"x": 32,
+		"y": -314.0785464391564,
+		"root": false
+	},
+	"x4gzpbkkqrq4njkt": {
+		"definition": "minor_defence_increase",
+		"x": 32,
+		"y": -387.97938089542845,
+		"root": false
+	}
+}
