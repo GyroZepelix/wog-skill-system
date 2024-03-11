@@ -15,4 +15,6 @@ puffish_skills category erase @s weapons/w-tachi_student
 puffish_skills category erase @s weapons/w-trident_student
 puffish_skills category erase @s weapons/w-unarmed_student
 
+itemattribute clear
+
 epicfight skill clear @s
