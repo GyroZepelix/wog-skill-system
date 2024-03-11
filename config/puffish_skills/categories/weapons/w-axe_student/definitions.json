@@ -19,6 +19,18 @@
 				"data": {
 					"command": "gamestage add @s w-axe_student"
 				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/axes basic_axe minecraft:generic.attack_damage -0.10 multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/axes basic_axe minecraft:generic.attack_speed -0.10 multiply_base"
+				}
 			}
 		]
 	},
@@ -40,7 +52,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say You are now advanced user!"
+					"command": "itemattribute add #gyro:weapons/axes basic_axe minecraft:generic.attack_damage 0.10 multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/axes basic_axe minecraft:generic.attack_speed 0.10 multiply_base"
 				}
 			}
 		]
@@ -63,7 +81,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say You are now master user!"
+					"command": "itemattribute add #gyro:weapons/axes basic_axe minecraft:generic.attack_damage 0.10 multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/axes basic_axe minecraft:generic.attack_speed 0.10 multiply_base"
 				}
 			}
 		]
@@ -103,7 +127,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say damage increase!"
+					"command": "itemattribute add #gyro:weapons/axes basic_axe minecraft:generic.attack_damage 0.02 multiply_base"
 				}
 			}
 		]
@@ -120,7 +144,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say speed increase!"
+					"command": "itemattribute add #gyro:weapons/axes basic_axe minecraft:generic.attack_speed 0.02 multiply_base"
 				}
 			}
 		]
@@ -137,7 +161,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say knockback increase!"
+					"command": "itemattribute add #gyro:weapons/axes basic_axe puffish_skills:player.knockback 0.05 multiply_base"
 				}
 			}
 		]
@@ -154,7 +178,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say resistance increase!"
+					"command": "itemattribute add #gyro:weapons/axes basic_axe minecraft:generic.armor 1 addition"
 				}
 			}
 		]
@@ -171,7 +195,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say speed increase!"
+					"command": "itemattribute add #gyro:weapons/axes basic_axe minecraft:generic.movement_speed 0.04 multiply_base"
 				}
 			}
 		]
