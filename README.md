@@ -43,3 +43,12 @@ git clone https://github.com/GyroZepelix/wog-skill-system
 cd wog-skill-system
 stow -t path/to/.minecraft . 
 ```
+
+#### Datagen
+The datagen in `/datagen/src/` is used to generate the definition files for all weapons as they contain alot of similarities.
+This is a basic command you can use to to generate the definitions files
+```bash
+cd datagen/src
+python3 __main__.py --template ../data/definitions.template.json --variables ../data/weapons.json --output_name definitions.json --recursive 2 
+```
+For more information about the datagen script you can run `python3 __main__.py -h`
