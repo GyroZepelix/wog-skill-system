@@ -35,7 +35,7 @@
 		]
 	},
     "expert_weapon_mastery": {
-		"title": "Bow's Disciple",
+		"title": "Bow Expert",
         "frame": {
 			"type": "advancement",
 			"data": {
@@ -127,7 +127,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say damage increase!"
+					"command": "itemattribute add #gyro:weapons/bows damage_bow_2p minecraft:generic.attack_damage 0.02 multiply_base"
 				}
 			}
 		]
@@ -144,7 +144,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say speed increase!"
+					"command": "itemattribute add #gyro:weapons/bows speed_bow_2p minecraft:generic.attack_speed 0.02 multiply_base"
 				}
 			}
 		]
@@ -161,7 +161,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say knockback increase!"
+					"command": "itemattribute add #gyro:weapons/bows knockback_bow_5p puffish_skills:player.knockback 0.05 multiply_base"
 				}
 			}
 		]
@@ -178,7 +178,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say resistance increase!"
+					"command": "itemattribute add #gyro:weapons/bows resistance_bow_4p puffish_skills:player.resistance 0.04 multiply_base"
 				}
 			}
 		]
@@ -195,7 +195,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say speed increase!"
+					"command": "itemattribute add #gyro:weapons/bows movement_speed_bow_4p minecraft:generic.movement_speed 0.04 multiply_base"
 				}
 			}
 		]

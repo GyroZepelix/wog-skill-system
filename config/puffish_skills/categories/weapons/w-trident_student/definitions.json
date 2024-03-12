@@ -10,7 +10,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "iron_tachi"
+				"item": "trident"
 			}
 		},
 		"rewards": [
@@ -23,19 +23,19 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/tridents basic minecraft:generic.attack_damage -0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/tridents basic_trident minecraft:generic.attack_damage -0.10 multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/tridents basic minecraft:generic.attack_speed -0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/tridents basic_trident minecraft:generic.attack_speed -0.10 multiply_base"
 				}
 			}
 		]
 	},
     "expert_weapon_mastery": {
-		"title": "Trident's Disciple",
+		"title": "Trident Expert",
         "frame": {
 			"type": "advancement",
 			"data": {
@@ -45,26 +45,26 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "golden_tachi"
+				"item": "trident"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/tridents basic minecraft:generic.attack_damage 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/tridents basic_trident minecraft:generic.attack_damage 0.10 multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/tridents basic minecraft:generic.attack_speed 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/tridents basic_trident minecraft:generic.attack_speed 0.10 multiply_base"
 				}
 			}
 		]
 	},
     "master_weapon_mastery": {
-		"title": "Son of Zeus",
+		"title": "Trident Master",
         "frame": {
 			"type": "advancement",
 			"data": {
@@ -74,20 +74,20 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "diamond_tachi"
+				"item": "trident"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/tridents basic minecraft:generic.attack_damage 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/tridents basic_trident minecraft:generic.attack_damage 0.10 multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/tridents basic minecraft:generic.attack_speed 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/tridents basic_trident minecraft:generic.attack_speed 0.10 multiply_base"
 				}
 			}
 		]
@@ -116,7 +116,7 @@
 		]
 	},
     "weapon_damage_increase": {
-        "title": "Minor tachi damage increase",
+        "title": "Minor trident damage increase",
         "icon": {
 			"type": "effect",
 			"data": {
@@ -127,13 +127,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say damage increase!"
+					"command": "itemattribute add #gyro:weapons/tridents damage_trident_2p minecraft:generic.attack_damage 0.02 multiply_base"
 				}
 			}
 		]
     },
     "weapon_speed_increase": {
-        "title": "Minor tachi speed increase",
+        "title": "Minor trident speed increase",
         "icon": {
 			"type": "item",
 			"data": {
@@ -144,13 +144,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say speed increase!"
+					"command": "itemattribute add #gyro:weapons/tridents speed_trident_2p minecraft:generic.attack_speed 0.02 multiply_base"
 				}
 			}
 		]
     },
     "weapon_knockback_increase": {
-        "title": "Minor tachi knockback increase",
+        "title": "Minor trident knockback increase",
         "icon": {
 			"type": "effect",
 			"data": {
@@ -161,13 +161,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say knockback increase!"
+					"command": "itemattribute add #gyro:weapons/tridents knockback_trident_5p puffish_skills:player.knockback 0.05 multiply_base"
 				}
 			}
 		]
     },
     "minor_defence_increase": {
-        "title": "Minor tachi defensive increase",
+        "title": "Minor trident defensive increase",
         "icon": {
 			"type": "effect",
 			"data": {
@@ -178,13 +178,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say resistance increase!"
+					"command": "itemattribute add #gyro:weapons/tridents resistance_trident_4p puffish_skills:player.resistance 0.04 multiply_base"
 				}
 			}
 		]
     },
     "minor_walk_speed_increase": {
-        "title": "Minor tachi mobility increase",
+        "title": "Minor trident mobility increase",
         "icon": {
 			"type": "effect",
 			"data": {
@@ -195,7 +195,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say speed increase!"
+					"command": "itemattribute add #gyro:weapons/tridents movement_speed_trident_4p minecraft:generic.movement_speed 0.04 multiply_base"
 				}
 			}
 		]

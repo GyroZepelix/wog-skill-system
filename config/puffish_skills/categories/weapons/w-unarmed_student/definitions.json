@@ -1,6 +1,6 @@
 {
 	"basic_weapon_mastery": {
-		"title": "Student of the Martial Arts",
+		"title": "Student of the Unarmed",
         "frame": {
 			"type": "advancement",
 			"data": {
@@ -17,25 +17,25 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-				"command": "gamestage add @s w-unarmed_student"
+					"command": "gamestage add @s w-glove_student"
 				}
 			},
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/gloves basic minecraft:generic.attack_damage -0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/gloves basic_glove minecraft:generic.attack_damage -0.10 multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/gloves basic minecraft:generic.attack_speed -0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/gloves basic_glove minecraft:generic.attack_speed -0.10 multiply_base"
 				}
 			}
 		]
 	},
     "expert_weapon_mastery": {
-		"title": "Fist's Disciple",
+		"title": "Unarmed Expert",
         "frame": {
 			"type": "advancement",
 			"data": {
@@ -52,19 +52,19 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/gloves basic minecraft:generic.attack_damage 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/gloves basic_glove minecraft:generic.attack_damage 0.10 multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/gloves basic minecraft:generic.attack_speed 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/gloves basic_glove minecraft:generic.attack_speed 0.10 multiply_base"
 				}
 			}
 		]
 	},
     "master_weapon_mastery": {
-		"title": "Master of the Punch",
+		"title": "Unarmed Master",
         "frame": {
 			"type": "advancement",
 			"data": {
@@ -81,13 +81,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/gloves basic minecraft:generic.attack_damage 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/gloves basic_glove minecraft:generic.attack_damage 0.10 multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/gloves basic minecraft:generic.attack_speed 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/gloves basic_glove minecraft:generic.attack_speed 0.10 multiply_base"
 				}
 			}
 		]
@@ -116,7 +116,7 @@
 		]
 	},
     "weapon_damage_increase": {
-        "title": "Minor unarmed damage increase",
+        "title": "Minor glove damage increase",
         "icon": {
 			"type": "effect",
 			"data": {
@@ -127,13 +127,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say damage increase!"
+					"command": "itemattribute add #gyro:weapons/gloves damage_glove_2p minecraft:generic.attack_damage 0.02 multiply_base"
 				}
 			}
 		]
     },
     "weapon_speed_increase": {
-        "title": "Minor unarmed speed increase",
+        "title": "Minor glove speed increase",
         "icon": {
 			"type": "item",
 			"data": {
@@ -144,13 +144,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say speed increase!"
+					"command": "itemattribute add #gyro:weapons/gloves speed_glove_2p minecraft:generic.attack_speed 0.02 multiply_base"
 				}
 			}
 		]
     },
     "weapon_knockback_increase": {
-        "title": "Minor unarmed knockback increase",
+        "title": "Minor glove knockback increase",
         "icon": {
 			"type": "effect",
 			"data": {
@@ -161,13 +161,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say knockback increase!"
+					"command": "itemattribute add #gyro:weapons/gloves knockback_glove_5p puffish_skills:player.knockback 0.05 multiply_base"
 				}
 			}
 		]
     },
     "minor_defence_increase": {
-        "title": "Minor unarmed defensive increase",
+        "title": "Minor glove defensive increase",
         "icon": {
 			"type": "effect",
 			"data": {
@@ -178,13 +178,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say resistance increase!"
+					"command": "itemattribute add #gyro:weapons/gloves resistance_glove_4p puffish_skills:player.resistance 0.04 multiply_base"
 				}
 			}
 		]
     },
     "minor_walk_speed_increase": {
-        "title": "Minor unarmed mobility increase",
+        "title": "Minor glove mobility increase",
         "icon": {
 			"type": "effect",
 			"data": {
@@ -195,7 +195,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say speed increase!"
+					"command": "itemattribute add #gyro:weapons/gloves movement_speed_glove_4p minecraft:generic.movement_speed 0.04 multiply_base"
 				}
 			}
 		]

@@ -10,7 +10,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "epicfight:uchigatana"
+				"item": "epicfight:katana"
 			}
 		},
 		"rewards": [
@@ -23,19 +23,19 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/katanas basic minecraft:generic.attack_damage -0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/katanas basic_katana minecraft:generic.attack_damage -0.10 multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/katanas basic minecraft:generic.attack_speed -0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/katanas basic_katana minecraft:generic.attack_speed -0.10 multiply_base"
 				}
 			}
 		]
 	},
     "expert_weapon_mastery": {
-		"title": "Katana's Disciple",
+		"title": "Katana Expert",
         "frame": {
 			"type": "advancement",
 			"data": {
@@ -45,26 +45,26 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "epicfight:uchigatana"
+				"item": "epicfight:katana"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/katanas basic minecraft:generic.attack_damage 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/katanas basic_katana minecraft:generic.attack_damage 0.10 multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/katanas basic minecraft:generic.attack_speed 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/katanas basic_katana minecraft:generic.attack_speed 0.10 multiply_base"
 				}
 			}
 		]
 	},
     "master_weapon_mastery": {
-		"title": "Master of the Blade",
+		"title": "Katana Master",
         "frame": {
 			"type": "advancement",
 			"data": {
@@ -74,20 +74,20 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "epicfight:uchigatana"
+				"item": "epicfight:katana"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/katanas basic minecraft:generic.attack_damage 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/katanas basic_katana minecraft:generic.attack_damage 0.10 multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/katanas basic minecraft:generic.attack_speed 0.10 multiply_base"
+					"command": "itemattribute add #gyro:weapons/katanas basic_katana minecraft:generic.attack_speed 0.10 multiply_base"
 				}
 			}
 		]
@@ -127,7 +127,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say damage increase!"
+					"command": "itemattribute add #gyro:weapons/katanas damage_katana_2p minecraft:generic.attack_damage 0.02 multiply_base"
 				}
 			}
 		]
@@ -144,7 +144,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say speed increase!"
+					"command": "itemattribute add #gyro:weapons/katanas speed_katana_2p minecraft:generic.attack_speed 0.02 multiply_base"
 				}
 			}
 		]
@@ -161,7 +161,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say knockback increase!"
+					"command": "itemattribute add #gyro:weapons/katanas knockback_katana_5p puffish_skills:player.knockback 0.05 multiply_base"
 				}
 			}
 		]
@@ -178,7 +178,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say resistance increase!"
+					"command": "itemattribute add #gyro:weapons/katanas resistance_katana_4p puffish_skills:player.resistance 0.04 multiply_base"
 				}
 			}
 		]
@@ -195,7 +195,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say speed increase!"
+					"command": "itemattribute add #gyro:weapons/katanas movement_speed_katana_4p minecraft:generic.movement_speed 0.04 multiply_base"
 				}
 			}
 		]

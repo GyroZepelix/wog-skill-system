@@ -127,7 +127,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/axes damage minecraft:generic.attack_damage 0.02 multiply_base"
+					"command": "itemattribute add #gyro:weapons/axes damage_axe_2p minecraft:generic.attack_damage 0.02 multiply_base"
 				}
 			}
 		]
@@ -144,7 +144,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/axes speed minecraft:generic.attack_speed 0.02 multiply_base"
+					"command": "itemattribute add #gyro:weapons/axes speed_axe_2p minecraft:generic.attack_speed 0.02 multiply_base"
 				}
 			}
 		]
@@ -161,7 +161,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/axes knockback puffish_skills:player.knockback 0.05 multiply_base"
+					"command": "itemattribute add #gyro:weapons/axes knockback_axe_5p puffish_skills:player.knockback 0.05 multiply_base"
 				}
 			}
 		]
@@ -178,7 +178,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/axes defence puffish_skills:player.resistance 0.04 multiply_base"
+					"command": "itemattribute add #gyro:weapons/axes resistance_axe_4p puffish_skills:player.resistance 0.04 multiply_base"
 				}
 			}
 		]
@@ -195,7 +195,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/axes mov_speed minecraft:generic.movement_speed 0.04 multiply_base"
+					"command": "itemattribute add #gyro:weapons/axes movement_speed_axe_4p minecraft:generic.movement_speed 0.04 multiply_base"
 				}
 			}
 		]
