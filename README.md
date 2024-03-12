@@ -26,13 +26,13 @@ EpicFight-19.5.19.jar
 ## Setup
 
 ### Production
-For permenantly using the skill system you can clone the repository then copy `datagen` and `scripts` into your `.minecraft` directory
+For permenantly using the skill system you can clone the repository then copy `config` and `scripts` into your `.minecraft` directory
 Do not include the `/datagen` directory
 
 ```bash
 git clone https://github.com/GyroZepelix/wog-skill-system
 cd wog-skill-system
-cp datagen path/to/.minecraft/
+cp config path/to/.minecraft/
 cp scripts path/to/.minecraft/
 ```
 
