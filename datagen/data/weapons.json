@@ -1,0 +1,50 @@
+{
+    "axe": {
+        "name": "axe",
+        "capital_name": "Axe"
+    },
+    "bow": {
+        "name": "bow",
+        "capital_name": "Bow"
+    },
+    "crossbow": {
+        "name": "crossbow",
+        "capital_name": "Crossbow"
+    },
+    "dagger": {
+        "name": "dagger",
+        "capital_name": "Dagger"
+    },
+    "greatsword": {
+        "name": "greatsword",
+        "capital_name": "Greatsword"
+    },
+    "katana": {
+        "name": "katana",
+        "capital_name": "Katana"
+    },
+    "longsword": {
+        "name": "longsword",
+        "capital_name": "Longsword"
+    },
+    "spear": {
+        "name": "spear",
+        "capital_name": "Spear"
+    },
+    "sword": {
+        "name": "sword",
+        "capital_name": "Sword"
+    },
+    "tachi": {
+        "name": "tachi",
+        "capital_name": "Tachi"
+    },
+    "trident": {
+        "name": "trident",
+        "capital_name": "Trident"
+    },
+    "glove": {
+        "name": "glove",
+        "capital_name": "Unarmed"
+    }
+}

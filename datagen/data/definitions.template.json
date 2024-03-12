@@ -1,0 +1,203 @@
+{
+	"basic_weapon_mastery": {
+		"title": "Student of the %capital_name%",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "%name%"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s w-%name%_student"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s basic_%name% minecraft:generic.attack_damage -0.10 multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s basic_%name% minecraft:generic.attack_speed -0.10 multiply_base"
+				}
+			}
+		]
+	},
+    "expert_weapon_mastery": {
+		"title": "%capital_name% Expert",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_%name%"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s basic_%name% minecraft:generic.attack_damage 0.10 multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s basic_%name% minecraft:generic.attack_speed 0.10 multiply_base"
+				}
+			}
+		]
+	},
+    "master_weapon_mastery": {
+		"title": "%capital_name% Master",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_%name%"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s basic_%name% minecraft:generic.attack_damage 0.10 multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s basic_%name% minecraft:generic.attack_speed 0.10 multiply_base"
+				}
+			}
+		]
+	},
+    "feat": {
+		"title": "Feat",
+        "frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "totem_of_undying"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function gyro:unlock_feat"
+				}
+			}
+		]
+	},
+    "weapon_damage_increase": {
+        "title": "Minor %name% damage increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s damage_%name%_2p minecraft:generic.attack_damage 0.02 multiply_base"
+				}
+			}
+		]
+    },
+    "weapon_speed_increase": {
+        "title": "Minor %name% speed increase",
+        "icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s speed_%name%_2p minecraft:generic.attack_speed 0.02 multiply_base"
+				}
+			}
+		]
+    },
+    "weapon_knockback_increase": {
+        "title": "Minor %name% knockback increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s knockback_%name%_5p puffish_skills:player.knockback 0.05 multiply_base"
+				}
+			}
+		]
+    },
+    "minor_defence_increase": {
+        "title": "Minor %name% defensive increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s resistance_%name%_4p puffish_skills:player.resistance 0.04 multiply_base"
+				}
+			}
+		]
+    },
+    "minor_walk_speed_increase": {
+        "title": "Minor %name% mobility increase",
+        "icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/%name%s movement_speed_%name%_4p minecraft:generic.movement_speed 0.04 multiply_base"
+				}
+			}
+		]
+    }
+}
