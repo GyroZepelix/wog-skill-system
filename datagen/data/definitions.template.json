@@ -10,7 +10,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "%name%"
+				"item": "iron_%name%"
 			}
 		},
 		"rewards": [
