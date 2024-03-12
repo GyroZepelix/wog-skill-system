@@ -10,6 +10,7 @@ def read_inputs():
     parser.add_argument('--variables', help='Path to the variables JSON file', required=True)
     parser.add_argument('--output', help='Output directory', default='../target')
     parser.add_argument('--output_name', help='Name of the output JSON file', default='output.json')
+    parser.add_argument('--recursive', help='Number of times the templates gets the variables processed', default=1, type=int)
     args = parser.parse_args()
     return args
 
@@ -27,10 +28,11 @@ def load_variables(args):
 
 def process_templates(args, template, template_vars):
     """Process the template with the given variables and save to subfolders."""
-    for key, value in template_vars.items():
+    for key, variables in template_vars.items():
         processed_template = template
-        for var_key, var_value in value.items():
-            processed_template = processed_template.replace(f"%{var_key}%", str(var_value))
+        for i in range(args.recursive):
+            for var_key, var_value in variables.items():
+                processed_template = processed_template.replace(f"%{var_key}%", str(var_value))
         
         # Create subfolder for each key
         output_path = os.path.join(args.output, key)
