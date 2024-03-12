@@ -20,9 +20,6 @@ pollen-forge-2.1.0.jar
 puffish_skills-0.10.0-1.19.2-forge.jar
 RecipeStages-4.0.0.7.jar.disabled
 YungsApi-1.19.2-Forge-3.8.10.jar
-```
-It also has compatibility with the following mod 
-```
 EpicFight-19.5.19.jar
 ```
 
@@ -30,6 +27,7 @@ EpicFight-19.5.19.jar
 
 ### Production
 For permenantly using the skill system you can clone the repository then copy its contents into your `.minecraft` directory
+Do not include the `/datagen` directory
 
 ```bash
 git clone https://github.com/GyroZepelix/wog-skill-system
