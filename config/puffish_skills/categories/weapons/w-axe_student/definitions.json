@@ -178,7 +178,7 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "itemattribute add #gyro:weapons/axes defence minecraft:generic.armor 1 addition"
+					"command": "itemattribute add #gyro:weapons/axes defence puffish_skills:player.resistance 0.04 multiply_base"
 				}
 			}
 		]
