@@ -10,7 +10,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "iron_%name%"
+				"item": "%student_icon%"
 			}
 		},
 		"rewards": [
@@ -45,7 +45,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "golden_%name%"
+				"item": "%expert_icon%"
 			}
 		},
 		"rewards": [
@@ -74,7 +74,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "diamond_%name%"
+				"item": "%master_icon%"
 			}
 		},
 		"rewards": [

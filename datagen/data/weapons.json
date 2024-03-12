@@ -1,50 +1,86 @@
 {
     "axe": {
         "name": "axe",
-        "capital_name": "Axe"
+        "capital_name": "Axe",
+        "student_icon": "iron_%name%",
+        "expert_icon": "golden_%name%",
+        "master_icon": "diamond_%name%"
     },
     "bow": {
         "name": "bow",
-        "capital_name": "Bow"
+        "capital_name": "Bow",
+        "student_icon": "%name%",
+        "expert_icon": "%name%",
+        "master_icon": "%name%"
     },
     "crossbow": {
         "name": "crossbow",
-        "capital_name": "Crossbow"
+        "capital_name": "Crossbow",
+        "student_icon": "%name%",
+        "expert_icon": "%name%",
+        "master_icon": "%name%"
     },
     "dagger": {
         "name": "dagger",
-        "capital_name": "Dagger"
+        "capital_name": "Dagger",
+        "student_icon": "epicfight:iron_%name%",
+        "expert_icon": "epicfight:golden_%name%",
+        "master_icon": "epicfight:diamond_%name%"
     },
     "greatsword": {
         "name": "greatsword",
-        "capital_name": "Greatsword"
+        "capital_name": "Greatsword",
+        "student_icon": "epicfight:iron_%name%",
+        "expert_icon": "epicfight:golden_%name%",
+        "master_icon": "epicfight:diamond_%name%"
     },
     "katana": {
         "name": "katana",
-        "capital_name": "Katana"
+        "capital_name": "Katana",
+        "student_icon": "epicfight:%name%",
+        "expert_icon": "epicfight:%name%",
+        "master_icon": "epicfight:%name%"
     },
     "longsword": {
         "name": "longsword",
-        "capital_name": "Longsword"
+        "capital_name": "Longsword",
+        "student_icon": "epicfight:iron_%name%",
+        "expert_icon": "epicfight:golden_%name%",
+        "master_icon": "epicfight:diamond_%name%"
     },
     "spear": {
         "name": "spear",
-        "capital_name": "Spear"
+        "capital_name": "Spear",
+        "student_icon": "epicfight:iron_%name%",
+        "expert_icon": "epicfight:golden_%name%",
+        "master_icon": "epicfight:diamond_%name%"
     },
     "sword": {
         "name": "sword",
-        "capital_name": "Sword"
+        "capital_name": "Sword",
+        "student_icon": "iron_%name%",
+        "expert_icon": "golden_%name%",
+        "master_icon": "diamond_%name%"
     },
     "tachi": {
         "name": "tachi",
-        "capital_name": "Tachi"
+        "capital_name": "Tachi",
+        "student_icon": "epicfight:iron_%name%",
+        "expert_icon": "epicfight:golden_%name%",
+        "master_icon": "epicfight:diamond_%name%"
     },
     "trident": {
         "name": "trident",
-        "capital_name": "Trident"
+        "capital_name": "Trident",
+        "student_icon": "%name%",
+        "expert_icon": "%name%",
+        "master_icon": "%name%"
     },
     "glove": {
         "name": "glove",
-        "capital_name": "Unarmed"
+        "capital_name": "Unarmed",
+        "student_icon": "epicfight:%name%",
+        "expert_icon": "epicfight:%name%",
+        "master_icon": "epicfight:%name%"
     }
 }
