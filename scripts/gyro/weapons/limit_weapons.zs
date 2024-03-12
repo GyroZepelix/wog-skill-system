@@ -13,7 +13,7 @@ val restricted_weapons = {
     " §4[Untrained Swords]": ItemStages.restrict(<tag:items:gyro:weapons/swords>, "w-sword_student"),
     " §4[Untrained Tachis]": ItemStages.restrict(<tag:items:gyro:weapons/tachis>, "w-tachi_student"),
     " §4[Untrained Tridents]": ItemStages.restrict(<tag:items:gyro:weapons/tridents>, "w-trident_student"),
-    " §4[Untrained Gloves]": ItemStages.restrict(<tag:items:gyro:weapons/gloves>, "w-unarmed_student")
+    " §4[Untrained Gloves]": ItemStages.restrict(<tag:items:gyro:weapons/gloves>, "w-glove_student")
 };
 
 for untrained_message, item in restricted_weapons {
