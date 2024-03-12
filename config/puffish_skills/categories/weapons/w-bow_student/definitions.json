@@ -17,7 +17,19 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say You are now a student of war!"
+					"command": "gamestage add @s w-bow_student"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/bows basic_bow minecraft:generic.attack_damage -0.10 multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/bows basic_bow minecraft:generic.attack_speed -0.10 multiply_base"
 				}
 			}
 		]
