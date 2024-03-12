@@ -52,7 +52,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say You are now advanced user!"
+					"command": "itemattribute add #gyro:weapons/tachis basic minecraft:generic.attack_damage 0.10 multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/tachis basic minecraft:generic.attack_speed 0.10 multiply_base"
 				}
 			}
 		]
@@ -75,7 +81,13 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "say You are now master user!"
+					"command": "itemattribute add #gyro:weapons/tachis basic minecraft:generic.attack_damage 0.10 multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "itemattribute add #gyro:weapons/tachis basic minecraft:generic.attack_speed 0.10 multiply_base"
 				}
 			}
 		]
